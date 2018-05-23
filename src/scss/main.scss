@@ -1,0 +1,28 @@
+body {
+    font-family: 'Tahoma', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+button.sample {
+    -webkit-appearance: none;
+    padding: 5px 15px;
+    background-color: #dd0000;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    font-size: 1.3em;
+    border-radius: 25px;
+    cursor: pointer;
+    @include transition(.2s);
+    &:hover {
+        background-color: rgb(14, 14, 136)
+    }
+}
