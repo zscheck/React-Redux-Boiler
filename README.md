@@ -1,6 +1,6 @@
 # React-Redux Boiler
 
-An easy to use project starter for React-Redux for personal projects
+An easy to use project starter for React-Redux personal projects
 
 ## Development Mode Setup
 
